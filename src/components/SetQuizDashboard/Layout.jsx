@@ -8,14 +8,14 @@ import { LiaHourglassStartSolid } from "react-icons/lia";
 const SetQuizLayout = () => {
   const menuData = [
     {
-      title:"Set Quiz",
-      icon: <LiaHourglassStartSolid />,
-      path: "/set-quiz/set-question"
-    },
-    {
       title: "Add Questions",
       icon: <IoMdAdd />,
       path: "/set-quiz",
+    },
+    {
+      title:"Set Quiz",
+      icon: <LiaHourglassStartSolid />,
+      path: "/set-quiz/set-question"
     },
     {
       title: "View Quizes",
