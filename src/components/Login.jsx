@@ -123,7 +123,8 @@ const Login = () => {
                 className={`${
                   userEmailExit && "hidden"
                 } font-medium text-base bg-[#1F2226] disabled:bg-[#1f22264b] text-[#F0F0F2] py-2 px-6 rounded-lg`}
-                onClick={handleSubmit(handleEmailCheck)}
+                // onClick={handleSubmit(handleEmailCheck)}
+                onClick={() => navigate('/intro')}
                 disabled={disableEmailSubmitBtn}
               >
                 Submit
